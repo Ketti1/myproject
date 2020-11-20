@@ -1,0 +1,41 @@
+.head{
+    background-color: red;
+    height:200px ;
+    margin-bottom: 10px;
+    padding: 1%;
+}
+.sidebar-1 {
+    background-color: royalblue;
+    height:500px;
+    margin-bottom: 10px;
+    width: 15%;
+    float: left;
+}
+.content{ 
+    background-color: springgreen;
+    height:500px ;
+    margin-bottom:10px;
+    width: 70%;
+    float: left;
+}
+.sidebar-2{
+    background-color: royalblue;
+    height:500px ;
+    margin-bottom:10px;
+    width: 15%;
+    float: left;
+
+}
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .footer {
+      background-color: yellow;
+      height: 200px;
+  }
+  img { 
+      height: 500px;
+      width: 1500px;
+  }

@@ -1,0 +1,42 @@
+.box-box {
+    display: flex;
+}
+.box1 {
+    height: 200px;
+    background-color: red;
+    width: 300px;
+    margin: 30px 30px;
+    display: flex;
+    
+}
+img {
+    width: 170px;
+    height: 260px;
+    position: relative;
+    display: block;
+    bottom: 40px;
+    right: 40px;
+}
+.text {
+    font-size: 10px;
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+}
+.box2 {
+    height: 200px;
+    background-color: blue;
+    width: 300px;
+    margin: 30px 30px;
+    display: flex;
+}
+img {
+    width: 150px;
+    height: 250px;
+    position: relative;
+    display: block;
+    bottom: 40px;
+    right: 40px;
+}
+.text {
+    font-size: 10px;
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+}

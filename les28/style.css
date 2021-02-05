@@ -1,0 +1,27 @@
+.blue {
+    background-color: blue;
+    height: 265px;
+    width: 1473px;
+    margin-top: 42px;
+    margin-left: 120px;
+}
+.red {
+    background-color:red;
+    height: 527px;
+    width: 257px;
+   margin-top: 19px;
+   margin-left: 120px;
+   float: left;
+}
+.green {
+    background-color: green;
+    height: 527px;
+    width: 1184px;
+    margin-top: 19px;
+    margin-left: 35px;
+    float:left;
+}
+img {
+    height: 527px;
+    width: 257px;
+}

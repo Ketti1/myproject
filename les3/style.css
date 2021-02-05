@@ -1,0 +1,17 @@
+body {
+    background-color: blue;
+}
+h1 {font-size: 50px;}
+    h1 { font-size: 35px;
+    }
+    li {font-size: 20px;
+    }
+    li {color: brown;
+    }
+    a {
+        color: cyan;
+        text-decoration: none;
+    }
+img { border: 5px solid goldenrod; margin: auto; display: block; border-radius: 200px; width:900px; height: 400px;
+
+}

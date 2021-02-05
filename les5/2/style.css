@@ -1,0 +1,23 @@
+body{
+    background-color: brown;
+}
+h1{
+    font-size: 35px;
+}
+h2{
+    font-size: 20px
+}
+p{
+    font-size: 17px;
+}
+img{
+    border: 5px solid blue; 
+    margin: auto;
+    display: block;
+    border-radius: 90%;
+}
+a{
+    color: aqua;
+    text-decoration: none;
+}
+h1{color: blue;}

@@ -1,0 +1,78 @@
+body {
+    background-color: cornflowerblue;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.L {
+    display: flex;
+    justify-content: center;
+   
+}
+.a {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(34, 190, 218);
+    border-radius: 20px;
+    margin-right: 20px;
+    display: block;
+    float: left;
+    overflow: hidden;
+}
+.b {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(243, 157, 27);
+    border-radius: 20px;
+    margin-right: 20px;
+    display: block;
+    float: left;
+}
+.c {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(17, 110, 250);
+    border-radius: 20px; margin-right: 20px;
+    display: block;
+    float: left;
+}
+.d {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(199, 216, 42);
+    border-radius: 20px;
+    margin-right: 20px;
+    display: block;
+    float: left;
+}
+.e {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(11, 15, 228);
+    border-radius: 20px;
+    margin-right: 20px;
+    display: block;
+    float: left;
+}
+.f {
+    width: 150px;
+    height: 200px;
+    background-color: rgb(202, 216, 11);
+    border-radius: 20px;
+    margin-right: 20px;
+    display: block;
+    float: left;
+}
+.g {
+    width: 150px;
+    height: 200px;
+    background-color: darkgray;
+    border-radius: 20px;
+    margin-right: 20px;
+    display: block;
+    float: left;
+}

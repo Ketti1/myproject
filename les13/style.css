@@ -1,0 +1,22 @@
+.box {
+    display: flex;
+}
+.k {
+    height: 200px;
+    background-color: cornflowerblue;
+    width: 300px;
+    margin: 30px 30px;
+    display: flex;
+}
+img {
+    width: 150px;
+    height: 200px;
+    position: relative;
+    display: block;
+    bottom: 20px;
+    right: 20px;
+}
+.text {
+    font-size: 8px;
+    text-shadow: darkslateblue;
+}

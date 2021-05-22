@@ -1,0 +1,125 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+header {
+    display: flex;
+    background-color: rgba(91, 218, 97, 0.973);
+    width: 100%;
+    height: 50px;
+    padding-top: 30px;
+    justify-content: space-around;
+}
+.logo {
+    font-family: 'Josefin Sans', sans-serif;           
+}
+
+.box {
+    width: 70%;
+    
+}
+div ul {
+    list-style: none;
+    position: relative;
+    color: white;
+    background-color: rgba(91, 218, 97, 0.973);
+}
+a {
+    text-decoration: none;
+    color: white;
+    
+    text-align: center;
+    transition: all .5s;
+}
+div > ul > li {
+    float: left;
+}
+div ul::after {
+    content: "";
+    display: block;
+    clear: both;
+} 
+div ul li a {
+    display: inline-block;
+    padding: 10px 30px;
+    width: 125px;
+    color: white;
+    text-decoration: none;
+}
+div ul li a:hover {
+    background-color: green;
+}
+div ul ul {
+    display: none;
+    position: absolute;
+}
+div  li:hover > ul {
+    display: block;
+}
+
+.head {
+    width: 80%;
+    margin: 0 auto;
+    height: 430px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.info {
+    background-color: white;
+    height: 300px;
+    width: 500px;
+    margin-top: 150px;
+}
+.photos {
+    width: 400px;
+    height: 30px;
+    background-color: white;
+
+}
+.text {
+    font-family: 'Truculenta', sans-serif;
+    font-size: 40px;
+}
+.name {
+    font-family: 'Truculenta', sans-serif;
+    font-size: 90px;
+}
+.me {
+    height: 600px;
+    width: 600px;
+}
+.aboutme {
+    font-family: 'Truculenta', sans-serif;
+    font-size: 25px;
+}
+.body {
+    width: 70%;
+    
+    margin: 150px auto;
+    font-size: 40px;
+    font-family: 'Truculenta', sans-serif;
+}
+.pictures {
+    display: flex;
+    justify-content: space-around;
+}
+.first {
+    width: 300px;
+    height: 250px;
+
+}
+.second {
+    width: 300px;
+    height: 250px;
+}
+.third {
+    width: 300px;
+    height: 250px;
+}
+@media screen and (max-width: 800px) {
+    input {
+        display: none;
+    }
+}
